@@ -1,0 +1,61 @@
+#carousel {
+    height: 169px;
+    /*border: 1px solid red;*/
+  }
+  
+  .carousel-item {
+    height: 540px;
+    /*margin-top: 540px;*/
+  }
+  
+  .carousel-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    background-position: center top;
+  }
+  
+  .caption-city {
+    font-size: medium;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 4.5rem;
+    font-weight: inherit;
+  }
+  
+  #seasons {
+    /*border: 10px solid yellow;*/
+    margin-top: 389px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 50px;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  #intro-video {
+    padding: 24px;
+    /*height: 100px;*/
+    width: 100%;
+    /*border: 10px solid green;*/
+    text-align: center;
+    background: url(../../assets/images/dark-paper.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  
+  .fa.fa-play-circle {
+    font-size: 45px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .fa.fa-play-circle:hover {
+    color: #0047ff;
+  }
