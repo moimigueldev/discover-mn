@@ -1,12 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { SlickModule } from 'ngx-slick';
+
 
 
 
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule
+    CommonModule,
+    SlickModule.forRoot()
+  ],
+  exports: [
+    SlickModule
   ]
 })
 export class SharedModuleModule { }

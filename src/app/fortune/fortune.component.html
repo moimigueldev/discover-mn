@@ -1,0 +1,28 @@
+<div id="fortune" class="page-header">
+    <h1 id="fortune-header"><strong>Minnesotas Fortune 500</strong></h1>
+</div>
+<div class="container slider mb-5" id="logos">
+    <div class="row  " id="logo-row">
+       
+        <div class="col-md-12">
+        <ngx-slick class="carousel" #slickModal="slick-modal" [config]="slideConfig" >
+                <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+                        <img src="{{ slide.img }}" alt="" class="img-fluid mx-auto pt-4">
+                </div>
+            </ngx-slick>
+        </div>
+
+            
+
+     <!-- <div class=" logos col-md-12"><img src="../../assets/images/logos/target.jpg" class="img-fluid pt-5"></div>
+    <div class=" logos col-md-12"><img src="../../assets/images/logos/lando-lakes.png" class="img-fluid"></div>
+    <div class=" logos pt-4 col-md-12"><img src="../../assets/images/logos/bestbuy.png" class="img-fluid"></div>
+    <div class=" logos col-md-12 mt-5"><img src="../../assets/images/logos/thivent.png" class="img-fluid pt-5"></div>
+    <div class=" logos col-md-12 mt-5"><img src="../../assets/images/logos/3M.png" class="img-fluid"></div>
+    <div class=" logos col-md-12 mt-5"><img src="../../assets/images/logos/general-mills.jpg" class="img-fluid"></div>
+    <div class=" logos col-md-12"><img src="../../assets/images/logos/uhg.jpg" id="uhg" class="img-fluid"></div>
+    <div class=" logos col-md-12"><img src="../../assets/images/logos/usb.png" class="img-fluid"></div>
+    <div class=" logos col-md-12 mt-5"><img src="../../assets/images/logos/saint-jude.png" id="st-jude" class="img-fluid"></div> -->
+    </div>
+</div>
+

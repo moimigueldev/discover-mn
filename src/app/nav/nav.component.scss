@@ -1,7 +1,5 @@
 nav {
 
-    // border-bottom: 1px solid black;
-
      img {
         height: 44px;
       }
@@ -22,5 +20,18 @@ nav {
   border-left: 4px solid yellow;
   }
 
+.navbar.navbar-light.navbar-expand-md {
+  padding-left: 108px;
+  padding-right: 108px;
+}
 
-  
+
+@media (min-width: 300px) {
+
+  .navbar.navbar-light.navbar-expand-md {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+}

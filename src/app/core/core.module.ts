@@ -5,6 +5,8 @@ import { AppComponent } from '../app.component';
 import { NavComponent } from '../nav/nav.component';
 import { HomeComponent } from '../home/home.component';
 import { FooterComponent } from '../footer/footer.component';
+import { FortuneComponent } from '../fortune/fortune.component';
+import { SharedModuleModule } from '../shared-module/shared-module.module';
 
 
 
@@ -13,17 +15,20 @@ import { FooterComponent } from '../footer/footer.component';
     AppComponent,
     NavComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    FortuneComponent
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    SharedModuleModule
   ],
   exports: [
     AppComponent,
     NavComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    FortuneComponent
   ]
 })
 export class CoreModule { }
