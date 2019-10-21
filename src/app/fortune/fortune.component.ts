@@ -8,15 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class FortuneComponent implements OnInit {
 
   slides = [
-    {img: '../../assets/images/logos/target.jpg'},
-    {img: '"../../assets/images/logos/lando-lakes.png'},
-    {img: '../../assets/images/logos/bestbuy.png'},
-    {img: '../../assets/images/logos/thivent.png'},
-    {img: '../../assets/images/logos/3M.png'},
-    {img: '../../assets/images/logos/general-mills.jpg'},
-    {img: '../../assets/images/logos/uhg.jpg'},
-    {img: '../../assets/images/logos/usb.png'},
-    {img: '../../assets/images/logos/saint-jude.png'},
+    {img: '../../assets/images/logos/target.jpg', class: 'img-fluid mx-auto p-4'},
+    {img: '"../../assets/images/logos/lando-lakes.png',  class: 'img-fluid mx-auto p-4'},
+    {img: '../../assets/images/logos/bestbuy.png',  class: 'img-fluid mx-auto p-4'},
+    {img: '../../assets/images/logos/thivent.png',  class: 'img-fluid mx-auto p-4'},
+    {img: '../../assets/images/logos/3M.png',  class: 'img-fluid mx-auto p-4'},
+    {img: '../../assets/images/logos/general-mills.jpg',  class: 'img-fluid mx-auto p-4'},
+    {img: '../../assets/images/logos/uhg.jpg',  class: 'img-fluid mx-auto p-4 uhg'},
+    {img: '../../assets/images/logos/usb.png',  class: 'img-fluid mx-auto p-4'},
+    {img: '../../assets/images/logos/saint-jude.png',  class: 'img-fluid mx-auto p-4 st-jude'},
   ];
   slideConfig = {
     slidesToShow: 1,

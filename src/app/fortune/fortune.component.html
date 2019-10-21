@@ -7,7 +7,8 @@
         <div class="col-md-12">
         <ngx-slick class="carousel" #slickModal="slick-modal" [config]="slideConfig" >
                 <div ngxSlickItem *ngFor="let slide of slides" class="slide">
-                        <img src="{{ slide.img }}" alt="" class="img-fluid mx-auto pt-4">
+                        <!-- <img src="{{ slide.img }}" alt="" class="img-fluid mx-auto pt-4"> -->
+                        <img src="{{ slide.img }}" alt="" class="{{slide.class}}">
                 </div>
             </ngx-slick>
         </div>
