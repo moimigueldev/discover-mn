@@ -7,6 +7,7 @@ import { HomeComponent } from '../home/home.component';
 import { FooterComponent } from '../footer/footer.component';
 import { FortuneComponent } from '../fortune/fortune.component';
 import { SharedModuleModule } from '../shared-module/shared-module.module';
+import { ExploreComponent } from '../explore/explore.component';
 
 
 
@@ -16,7 +17,8 @@ import { SharedModuleModule } from '../shared-module/shared-module.module';
     NavComponent,
     HomeComponent,
     FooterComponent,
-    FortuneComponent
+    FortuneComponent,
+    ExploreComponent
   ],
   imports: [
     CommonModule,
@@ -28,7 +30,8 @@ import { SharedModuleModule } from '../shared-module/shared-module.module';
     NavComponent,
     HomeComponent,
     FooterComponent,
-    FortuneComponent
+    FortuneComponent,
+    ExploreComponent
   ]
 })
 export class CoreModule { }

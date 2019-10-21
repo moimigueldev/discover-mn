@@ -1,0 +1,177 @@
+#visit-header {
+    min-height:250px;
+    background: url(../../assets/images/explore/explore.jpeg) center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    text-align:center;
+    // color:$body-background;
+    margin-top:20px;
+}
+
+#visit {
+    p {
+        font-size: 15px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+}
+
+#visit1 {
+    background: url(../../assets/images/explore/falls.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    overflow: hidden;
+    height:430px;
+
+    .visit1 {
+        height:80px;
+        margin-top:350px;
+        background-color: rgba(0,0,0,0.5)
+    }
+}
+
+#visit1:hover {
+    .visit1 {
+        height:80px;
+        margin-top:350px;
+        background-color: rgba(0,0,0,0.7)
+    }
+}
+
+
+#visit2 {
+    background: url(../../assets/images/explore/ice-castles.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:215px;
+    padding:0;
+    overflow: hidden;
+    
+    .visit2 {
+        height:80px;
+        margin-top:161.25px;
+        background-color: rgba(0,0,0,0.5)
+    }
+
+}
+
+#visit2:hover {
+    .visit2 {
+        background-color: rgba(0,0,0,0.7)
+    }
+}
+
+#visit3 {
+    background: url(../../assets/images/explore/theater.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:215px;
+    padding:0;
+    overflow: hidden;
+
+    .visit3 {
+        height:80px;
+        margin-top:161.25px;
+        background-color: rgba(0,0,0,0.5)
+    }
+    
+}
+
+#visit3:hover {
+    .visit3 {
+        background-color: rgba(0,0,0,0.7)
+    }
+    
+}
+
+#visit4 {
+    background: url(../../assets/images/explore/state-fair-img.jpg) no-repeat center;
+    background-position-y: -100px;
+    background-size: cover;
+    height:350px;
+    padding:0;
+    overflow: hidden;
+
+    .visit4 {
+        height:80px;
+        margin-top:270px;
+        background-color: rgba(0,0,0,0.5)
+    }
+}
+
+#visit4:hover {
+    .visit4 {
+        background-color: rgba(0,0,0,0.7)
+    }
+    
+}
+
+#visit5 {
+    background: url(../../assets/images/explore/duluth.jpg) no-repeat;
+    background-position-x: -355px;
+    background-size: cover;
+    height:430px;
+    padding:0;
+    overflow: hidden;
+
+    .visit5 {
+        height:100px;
+        margin-top:350px;
+        background-color: rgba(0,0,0,0.5)
+    }
+}
+
+#visit5:hover {
+    .visit5 {
+        background-color: rgba(0,0,0,0.7)
+    }
+    
+}
+ 
+#visit6 {
+    background: url(../../assets/images/explore/sea-life.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:430px;
+    padding:0;
+    overflow: hidden;
+
+    .visit6 {
+        height:100px;
+        margin-top:350px;
+        background-color: rgba(0,0,0,0.5)
+    }
+}
+
+#visit6:hover {
+    .visit6 {
+        background-color: rgba(0,0,0,0.7)
+    }
+    
+}
+
+#visit7 {
+    background: url(../../assets/images/explore/quiet.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:430px;
+    padding:0;
+    overflow: hidden;
+
+    .visit7 {
+        height:100px;
+        margin-top:350px;
+        background-color: rgba(0,0,0,0.5)
+    }
+}
+
+#visit7:hover {
+    .visit7 {
+        background-color: rgba(0,0,0,0.7)
+    }
+    
+}
