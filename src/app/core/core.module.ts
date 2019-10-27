@@ -8,6 +8,8 @@ import { FooterComponent } from '../footer/footer.component';
 import { FortuneComponent } from '../fortune/fortune.component';
 import { SharedModuleModule } from '../shared-module/shared-module.module';
 import { ExploreComponent } from '../explore/explore.component';
+import { EventsComponent } from '../events/events.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -18,12 +20,14 @@ import { ExploreComponent } from '../explore/explore.component';
     HomeComponent,
     FooterComponent,
     FortuneComponent,
-    ExploreComponent
+    ExploreComponent,
+    EventsComponent
   ],
   imports: [
     CommonModule,
     RouterModule,
-    SharedModuleModule
+    SharedModuleModule,
+    HttpClientModule
   ],
   exports: [
     AppComponent,
@@ -31,7 +35,8 @@ import { ExploreComponent } from '../explore/explore.component';
     HomeComponent,
     FooterComponent,
     FortuneComponent,
-    ExploreComponent
+    ExploreComponent,
+    EventsComponent
   ]
 })
 export class CoreModule { }
