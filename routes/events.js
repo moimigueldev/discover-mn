@@ -7,8 +7,8 @@ const eventbrite = require('eventbrite');
 
 
 
-// const sdk = eventbrite({token: '3W3SNOKL3CGJTMTQTPT4'});
-// const sdk = eventbrite({token: 'KBHTPAXC4ORL534PFWFZ'});
+const sdk = eventbrite({token: '3W3SNOKL3CGJTMTQTPT4'});
+const sdk = eventbrite({token: 'KBHTPAXC4ORL534PFWFZ'});
 
 const headers = {
     Authorization: "Bearer KBHTPAXC4ORL534PFWFZ"

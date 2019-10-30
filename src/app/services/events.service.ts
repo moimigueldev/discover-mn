@@ -15,7 +15,6 @@ export class EventsService {
       'Access-Control-Allow-Origin': '*'
     })
   };
-  
 
   getEvents() {
     console.log('getting events');
