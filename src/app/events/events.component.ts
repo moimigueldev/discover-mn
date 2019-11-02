@@ -15,7 +15,6 @@ export class EventsComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    console.log('initing');
     this.loadScripts();
   }
 

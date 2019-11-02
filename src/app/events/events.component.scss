@@ -1,5 +1,15 @@
-#eventswidget {
-    border: 10px solid red;
-    height: 400px;
-    width: 500px;;
+#events-header {
+    min-height:250px;
+    background: url(../../assets/images/events/events.jpg) center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+
+    text-align:center;
+    // color:$body-background;
+    margin-top:20px;
+}
+
+#events-widget {
+    width: inherit;
 }
