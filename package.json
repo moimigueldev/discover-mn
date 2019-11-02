@@ -29,6 +29,7 @@
     "lightbox2": "^2.11.1",
     "ngx-slick": "^0.2.1",
     "ngx-slick-carousel": "^0.4.6",
+    "ngx-spinner": "^8.0.3",
     "node-google-calendar": "^1.1.1",
     "request": "^2.88.0",
     "rxjs": "~6.4.0",

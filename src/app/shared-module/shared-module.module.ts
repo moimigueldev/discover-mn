@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SlickModule } from 'ngx-slick';
+import { NgxSpinnerModule } from "ngx-spinner";
 
 
 
@@ -9,10 +10,12 @@ import { SlickModule } from 'ngx-slick';
   declarations: [],
   imports: [
     CommonModule,
-    SlickModule.forRoot()
+    SlickModule.forRoot(),
+    NgxSpinnerModule
   ],
   exports: [
-    SlickModule
+    SlickModule,
+    NgxSpinnerModule
   ]
 })
 export class SharedModuleModule { }

@@ -13,12 +13,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
     
 
-const index = require('./routes/index'),
-    events = require('./routes/events');
+const index = require('./routes/index');
+
 
 
 app.use('/', index);
-app.use('/events', events);
 
 app.listen(port, () => {
     console.log(`listening on ports: ${port}`);
