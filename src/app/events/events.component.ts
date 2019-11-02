@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { EventsService } from '../services/events.service';
+import { DynamicScriptLoaderService } from '../services/dynamic-script-loader.service';
 
 @Component({
   selector: 'app-events',
@@ -9,14 +10,19 @@ import { EventsService } from '../services/events.service';
 export class EventsComponent implements OnInit {
 
   constructor(
-    private eventsService: EventsService
+    private eventsService: EventsService,
+    private dynamicScriptLoader: DynamicScriptLoaderService
   ) { }
 
   ngOnInit() {
-    this.eventsService.getEvents().subscribe(res => {
-      console.log('server res', JSON.parse(res));
-      
-    })
+    console.log('initing');
+    this.loadScripts();
   }
 
+  loadScripts() {
+    // You can load multiple scripts by just providing the key as argument into load method of the service
+    this.dynamicScriptLoader.load('ticketMaster').then(data => {
+      // Script Loaded Successfully
+    }).catch(error => console.log(error));
+  }
 }
