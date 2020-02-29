@@ -1,5 +1,5 @@
 const express = require('express');
-    path = require('path'),
+path = require('path'),
     app = express(),
     bodyParser = require('body-parser'),
     cors = require('cors'),
@@ -11,20 +11,20 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, 'dist/discover-mn')));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-    
 
 
-const index = require('./routes/index'),
-    visitor = require('./routes/visitor');
+
+const index = require('./routes/index');
+// visitor = require('./routes/visitor');
 
 
 
 app.use('/', index);
-app.use('/api/visitor', visitor);
+// app.use('/api/visitor', visitor);
 
 
 
 app.listen(port, (req, res) => {
-    
+
     console.log(`listening on port: ${port}`);
 });

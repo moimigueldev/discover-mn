@@ -11,13 +11,13 @@ export class AppComponent {
   constructor(
     private admin: AdminService
   ) {
-    
+
   }
-  
+
   ngOnInit() {
-    this.admin.visitor().subscribe(res => {
-      console.log('res', res)
-    });
+    // this.admin.visitor().subscribe(res => {
+    //   console.log('res', res)
+    // });
   }
 
 }
